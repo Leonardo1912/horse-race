@@ -1,0 +1,21 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    .horse {
+      color: red;
+      font-size: 25px;
+    }
+
+    .win {
+      color: green;
+    }
+  }
+}
